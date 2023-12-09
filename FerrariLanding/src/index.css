@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Body-Font';
+    src: url(assets/fonts/Ferrari-SansRegular.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Body-Font-M';
+    src: url(assets/fonts/Ferrari-SansMedium.woff2) format('woff2');
+}
+body{
+    margin:0;
+    font-family:monospace;
+    background-color: rgb(24, 24, 24);
+
+}
